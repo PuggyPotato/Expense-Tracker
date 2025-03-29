@@ -21,7 +21,7 @@ function DataInput(){
         <>
             <div>
                 <form onSubmit={handleSubmit}>
-                    <input type="number" onChange={(e) =>setAmount(e.target.value)} value={category} placeholder="Enter Price Here..."></input>
+                    <input type="number" onChange={(e) =>setAmount(e.target.value)} value={amount} placeholder="Enter Price Here..."></input>
                     <select onChange={(e) => setCategory(e.target.value)}>
                         <option value={"FoodDrinks"}>Food / Drinks</option>
                         <option value={"Entertainment"}>Entertainment</option>
